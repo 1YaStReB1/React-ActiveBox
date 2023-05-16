@@ -1,0 +1,41 @@
+/* Intro */
+
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 100px;
+  height: 750px;
+  background: #2c2f49 url("../../img/intro-bg.jpg") center no-repeat ;
+  background-size: cover;
+}
+
+.intro__inner{
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__title{
+  margin: 0 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #fff;
+
+  text-transform: uppercase;
+  
+}
+
+
+.intro__subtitle{
+  margin-bottom: 60px;
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+}
